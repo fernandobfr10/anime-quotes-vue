@@ -5,7 +5,7 @@
     </div>
     <div class="container" v-else>
       <Quote :quote="quote" />
-      <Button text="Generate New Quote" :onClick="doClick"/>
+      <Button text="Generate New Quote" @onClick="doClick"/>
       <footer class="footer">
         <p>Created by Fernando Junior</p>
         <a href="https://github.com/inando85/anime-quotes-vue" target="_blank" class="github">Github Project</a>
