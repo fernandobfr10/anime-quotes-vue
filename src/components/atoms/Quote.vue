@@ -24,6 +24,7 @@ export default {
   width: 90%
   max-width: 650px
   min-height: 300px
+  height: max-content
   background-color: #073b4c
   border-radius: 12px
   text-align: center
@@ -32,7 +33,7 @@ export default {
   align-items: center
   justify-content: center
   position: relative
-  padding: 30px
+  padding: 50px
 
   &__description
     font-size: 22px
